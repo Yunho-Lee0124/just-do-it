@@ -1,0 +1,89 @@
+body {
+    background-color: #383838;
+    text-align: center;
+  }
+
+  .title {
+    background-color: #272727;
+    text-align: center;
+    margin: 0 auto;
+    width: 1036px;
+    height: 130px;
+  }
+
+  .more {
+    background-color: #101010;
+    text-align: center;
+    margin: 0 auto;
+    width: 1036px;
+    height: 136px;
+  }
+
+  .homep {
+    width: 192px;
+    height: 96px;
+    background-image: url(HOME.gif);
+    background-size: cover;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 100px;
+  }
+
+  .intro {
+    width: 192px;
+    height: 96px;
+    background-image: url(introction.gif);
+    background-size: cover;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .disco {
+    width: 192px;
+    height: 96px;
+    background-image: url(Discord.gif);
+    background-size: cover;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+
+  .titban {
+    width: 640px;
+    height: 128px;
+  }
+
+  .dld {
+    width: 1036px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #272727;
+    color: #ffffff;
+  }
+
+  .table {
+    text-align: center;
+  }
+  .contents {
+    margin: 0 auto;
+  }
+
+  .dldbtn {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .newbtn {
+    color: #0075C9;
+    background-color: #FF6A00;
+    text-decoration: none;
+  }
