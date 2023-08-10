@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="icon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <title>Just Do It │ 소개</title>
+</head>
+<body>
+    <div class="title">
+        <img class="titban" src="title_banner.ico">
+    </div>
+    <div class="more">
+        <button class="homep" id="homep"></button>
+        <button class="dldpg" id="dldpg"></button>
+        <button class="disco" id="disco"></button>
+    </div>
+
+    <script>
+        document.getElementById("homep").addEventListener("click", function() {
+          var url = "https://yunho-lee0124.github.io/just-do-it";
+          window.open(url, "_blank");
+        });
+
+        document.getElementById("dldpg").addEventListener("click", function() {
+          var url = "https://yunho-lee0124.github.io/just-do-it/download";
+          window.open(url, "_blank");
+        });
+
+        document.getElementById("disco").addEventListener("click", function() {
+          var url = "https://discord.gg/nYKGKyFfgf";
+          window.open(url, "_blank");
+        });
+    </script>
+</body>
+</html>
